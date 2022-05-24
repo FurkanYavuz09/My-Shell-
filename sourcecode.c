@@ -9,10 +9,6 @@
 #define MAX_LIMIT 100
 
 
-
-
-
-
 //this function parses the piped input as left side and right side 
 
 void parsepiped(char** array ,int size ,char** l, char** r){
@@ -113,9 +109,6 @@ int checkforpipe(char** array , int arraysize ){
 	}
 	return 0;
 }
-
-
-
 
 int main(){
 
@@ -240,8 +233,6 @@ int main(){
 					wait(NULL);
 				}
 				
-				
-		
 			}
 		}
 	else{
@@ -253,12 +244,6 @@ int main(){
 		
 		execArgsPiped(left,right); 
 	}
-	
-	
-
-	
-
-	
 	
 }
 	return 0;
